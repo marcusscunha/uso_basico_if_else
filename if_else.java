@@ -9,13 +9,15 @@ public class if_else {
 	int hora;	
 	System.out.println("Horas?");
 	hora = sc.nextInt();
-		if(hora<12) {
+		if(hora<12) 
 			System.out.println("bom dia, cara");
-			}
-		else{
+		else if(hora<18)
 			System.out.println("boa tarde, cara");
-			}
+			 
+			 else 
+			System.out.println("boa noite, cara. Vá dormir!");
+			 
+		
 	sc.close();
 	}
-
 }
